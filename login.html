@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/login.css">
+
+    <title>Login</title>
+</head>
+
+
+
+<body>
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="#contact">Courses</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+
+
+    <form action="/action_page.php" method="post">
+        <h1>Login</h1>
+        <div class="imgcontainer">
+            <img src="" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            <br>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <br><label for="psw"><b></b></label>
+            <button type="submit" class="loginbtn">Login</button>
+            <br>
+            <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
